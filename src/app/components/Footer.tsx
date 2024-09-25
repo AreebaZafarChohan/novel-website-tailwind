@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* All Rights Reserved */}
         <div className="text-center text-sm text-white">
-          &qout 2024 Areeba Zafar | All rights reserved.
+          &copy; 2024 Areeba Zafar | All rights reserved.
         </div>
       </div>
     </footer>
