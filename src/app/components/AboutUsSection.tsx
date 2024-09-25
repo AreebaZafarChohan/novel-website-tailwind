@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Image from 'next/image';
 
 const AboutUsSection: React.FC = () => {
   const [isUrdu, setIsUrdu] = useState(false); // State to track the current language
@@ -44,7 +45,10 @@ const AboutUsSection: React.FC = () => {
       <div className="md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
         {images.map((src, index) => (
           <div key={index} className="h-48 bg-gray-300 flex items-center justify-center">
-            <img src={src} alt={`Novel ${index + 1}`} className="object-cover h-full w-full shadow-md shadow-gray-500" />
+            <Image src={src} alt={`Novel ${index + 1}`}
+            width={200}
+            height={200}
+             className="object-cover h-full w-full shadow-md shadow-gray-500" />
           </div>
         ))}
       </div>
