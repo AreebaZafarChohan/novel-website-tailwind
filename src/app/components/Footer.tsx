@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="text-center sm:text-left">
             <h2 className="font-semibold text-lg mb-4">FAQ</h2>
             <ul>
-              <li><a href="/faq" className="hover:underline hover:text-white transition duration-300">What is &qout;Ishq Aur Afsanay&qout;?</a></li>
+              <li><a href="/faq" className="hover:underline hover:text-white transition duration-300">What is Ishq Aur Afsanay?</a></li>
               <li><a href="/faq" className="hover:underline hover:text-white transition duration-300">How do I start reading novels?</a></li>
               <li><a href="/faq" className="hover:underline hover:text-white transition duration-300">Can I submit my own stories?</a></li>
             </ul>
